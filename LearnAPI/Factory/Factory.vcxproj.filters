@@ -15,19 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AutoTimer.h">
+    <ClInclude Include="IRender.h">
       <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="AutoTimer02.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="RenderFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenglRendreer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MesaRendreer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFactory02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AutoTimer02.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="AutoTimer03.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="RenderFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFactory02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,2 +1,7 @@
 LearnAPI/.vs/
 *.user
+*.exe
+LearnAPI/Singleton/x64/
+LearnAPI/x64/
+LearnAPI/Pimpl/x64/
+LearnAPI/Factory/x64/

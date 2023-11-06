@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8c5fbbe1-8a14-40c6-a149-3b8b150a48d0}</ProjectGuid>
-    <RootNamespace>Pimpl</RootNamespace>
+    <ProjectGuid>{a0b05fb4-3212-4160-99f5-030f5e970d70}</ProjectGuid>
+    <RootNamespace>Singleton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AutoTimer.h" />
-    <ClCompile Include="AutoTimer02.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AutoTimer02.h" />
-    <ClInclude Include="AutoTimer03.h" />
+    <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

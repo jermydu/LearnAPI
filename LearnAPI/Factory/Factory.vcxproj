@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8c5fbbe1-8a14-40c6-a149-3b8b150a48d0}</ProjectGuid>
-    <RootNamespace>Pimpl</RootNamespace>
+    <ProjectGuid>{729cfcf9-4746-44a1-86eb-baef01f0d75c}</ProjectGuid>
+    <RootNamespace>Factory</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AutoTimer.h" />
-    <ClCompile Include="AutoTimer02.cpp" />
+    <ClInclude Include="DirectxRenderer.h" />
+    <ClInclude Include="IRender.h" />
+    <ClInclude Include="MesaRendreer.h" />
+    <ClInclude Include="OpenglRendreer.h" />
+    <ClInclude Include="RenderFactory.h" />
+    <ClInclude Include="RenderFactory02.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AutoTimer02.h" />
-    <ClInclude Include="AutoTimer03.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RenderFactory.cpp" />
+    <ClCompile Include="RenderFactory02.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
