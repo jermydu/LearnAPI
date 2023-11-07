@@ -51,3 +51,8 @@ AutoTimer02::~AutoTimer02()
 	m_Pimpl = nullptr;
 }
 
+
+int main(int argc, char* argv[])
+{
+	return 0;
+}
