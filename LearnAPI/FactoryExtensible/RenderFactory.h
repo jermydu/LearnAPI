@@ -3,7 +3,7 @@
 #include <map>
 #include "IRender.h"
 
-class RenderFactory02
+class RenderFactory
 {
 public:
 	//typedef IRender* (*CreateCallback)();

@@ -5,3 +5,6 @@ LearnAPI/Singleton/x64/
 LearnAPI/x64/
 LearnAPI/Pimpl/x64/
 LearnAPI/Factory/x64/
+LearnAPI/FactoryExtensible/x64/
+LearnAPI/ProxyInterface/x64/
+LearnAPI/ProxySimple/x64/

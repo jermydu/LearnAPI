@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{729cfcf9-4746-44a1-86eb-baef01f0d75c}</ProjectGuid>
-    <RootNamespace>Factory</RootNamespace>
+    <ProjectGuid>{6d5dcf6a-e28c-495a-916b-c6431a9f77e6}</ProjectGuid>
+    <RootNamespace>FactoryExtensible</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>FactorySimple</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DirectxRenderer.h" />
     <ClInclude Include="IRender.h" />
-    <ClInclude Include="MesaRendreer.h" />
-    <ClInclude Include="OpenglRendreer.h" />
     <ClInclude Include="RenderFactory.h" />
+    <ClInclude Include="UserFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

@@ -7,12 +7,7 @@ public:
 	// 使用非局部静态变量初始化单例是非常危险的
 	//在类的方法中创建局部静态变量
 	//static Mutex mutex；
-	static SingleTon& GetInstance()
-	{
-		//ScopeLock lock(&mutex);			//在函数退出时释放互斥锁
-		static SingleTon instance;
-		return instance;
-	}
+	static SingleTon& GetInstance();
 
 private:
 	//注意：声明私有构造函数和析构函数意味着用户不能创建单例的子类，
@@ -23,6 +18,3 @@ private:
 	SingleTon(const SingleTon& o);
 	const SingleTon& operator= (const SingleTon& o);
 };
-
-//使用Singleton
-//SingleTon& obj = SingleTon::GetInstance();

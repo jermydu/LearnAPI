@@ -30,15 +30,9 @@
     <ClInclude Include="MesaRendreer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RenderFactory02.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RenderFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderFactory02.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">

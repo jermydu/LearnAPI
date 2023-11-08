@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{729cfcf9-4746-44a1-86eb-baef01f0d75c}</ProjectGuid>
-    <RootNamespace>Factory</RootNamespace>
+    <ProjectGuid>{657717ee-2755-4cd8-8af3-6e7a7d211419}</ProjectGuid>
+    <RootNamespace>ProxySimple</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>FactorySimple</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,15 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DirectxRenderer.h" />
-    <ClInclude Include="IRender.h" />
-    <ClInclude Include="MesaRendreer.h" />
-    <ClInclude Include="OpenglRendreer.h" />
-    <ClInclude Include="RenderFactory.h" />
+    <ClInclude Include="Original.h" />
+    <ClInclude Include="Proxy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="RenderFactory.cpp" />
+    <ClCompile Include="Original.cpp" />
+    <ClCompile Include="Proxy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
