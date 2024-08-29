@@ -1,4 +1,4 @@
-
+#include <mutex>
 //不是线程安全的单例
 class SingleTon
 {
@@ -6,7 +6,7 @@ public:
 	//注意：不同编译单元中非局部静态变量初始化顺序是未定义的，也就是说
 	// 使用非局部静态变量初始化单例是非常危险的
 	//在类的方法中创建局部静态变量
-	//static Mutex mutex；
+	static std::mutex m_mutex;
 	static SingleTon& GetInstance();
 
 private:
