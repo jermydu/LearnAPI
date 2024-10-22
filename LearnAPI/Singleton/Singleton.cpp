@@ -3,7 +3,7 @@
 
 SingleTon& SingleTon::GetInstance()
 {
-	std::lock_guard<std::mutex> lock(m_mutex);			//在函数退出时释放互斥锁
+	//std::lock_guard<std::mutex> lock(m_mutex);			//在函数退出时释放互斥锁   C++11之后不再需要使用锁来保证线程安全
 	static SingleTon instance;
 	return instance;
 }
